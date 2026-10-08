@@ -435,6 +435,7 @@ export default function StoryApp() {
                   </div>
                   <div className="bg-white py-4 rounded-b-xl shadow-sm border border-white mb-4 flex flex-col items-center">
                     <p className="text-[12px] uppercase font-bold text-[#7e22ce]">Hotel Grand Guardian</p>
+                    <p className="text-[11px] uppercase font-bold text-[#7e22ce] mt-0.5">Ballroom</p>
                     <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1 mb-3">Ratnapura</p>
                     <a
                       href="https://maps.app.goo.gl/7DviUe59QdJK488MA"
