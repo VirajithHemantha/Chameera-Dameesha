@@ -473,9 +473,6 @@ export default function StoryApp() {
                   <img src="/floral_rsvp.png" alt="RSVP" className="w-full h-auto object-contain mix-blend-multiply" />
                 </div>
 
-                <p className="serif text-[13px] sm:text-[15px] uppercase tracking-[0.15em] font-bold text-[#2C2C2C] mb-6">
-                  BY DECEMBER 14, 2026
-                </p>
 
                 <div className="w-full">
                   <RSVPForm />

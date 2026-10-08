@@ -312,11 +312,6 @@ function RSVPForm() {
     <div data-no-flip className="w-full cursor-auto">
       <CheckCircle2 size={24} className="text-sage mb-2 md:mb-4 mx-auto opacity-70 md:w-8 md:h-8" />
       <h4 className="serif text-3xl md:text-4xl text-sage mb-2 md:mb-3 text-center">RSVP</h4>
-      <p className="text-[12px] md:text-sm text-zinc-500 uppercase tracking-widest mb-4 md:mb-6 text-center leading-relaxed">
-        Please let us know by
-        <br />
-        December 14th, 2026
-      </p>
 
       <form onSubmit={submit} className="space-y-4 md:space-y-4 px-1 md:px-2">
         <div className="grid grid-cols-2 gap-2">
