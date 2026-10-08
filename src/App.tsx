@@ -210,7 +210,7 @@ type GuestEntry = {
 };
 
 function RSVPForm() {
-  const endpoint = "https://script.google.com/macros/s/AKfycbx7KfLqJ0YcdqvFD-igqNJc4f-NfWI-tdqb5acO1dt-fDDsdWb3rOYoxCNgWkKguz5mqw/exec";
+  const endpoint = "https://script.google.com/macros/s/AKfycbysY94L_O9wEXg6GQOumqJz0kukeEmUFGL8TgE0LkbRSORiuHPmQoonfyTPhy_1wKxU3Q/exec";
 
   const [attendance, setAttendance] = useState<Attendance>("yes");
   const [partyType, setPartyType] = useState<PartyType>("individual");
@@ -1082,7 +1082,7 @@ export default function App() {
                           15
                         </span>
                         <span className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.25em] text-taupe font-bold">
-                          10:00 AM · 2027
+                          10:00 AM ONWARDS · 2027
                         </span>
                         <span className="mt-1 block max-w-[200px] px-2 text-[9px] sm:text-[9px] md:text-[10px] uppercase tracking-[0.12em] text-taupe/75 text-center leading-snug break-words">
                           HOTEL GRAND GUARDIAN, RATNAPURA
@@ -1321,8 +1321,6 @@ export default function App() {
                   <MapPin size={24} className="text-sage mb-4 md:mb-6 opacity-70 md:w-9 md:h-9" />
                   <h4 className="serif text-3xl md:text-5xl text-sage mb-2 md:mb-4">Hotel Grand Guardian</h4>
                   <p className="text-[12px] md:text-base text-zinc-500 uppercase tracking-widest leading-loose mb-4 md:mb-6">
-                    Hotel Grand Guardian
-                    <br />
                     Ratnapura
                   </p>
                   <motion.button
@@ -1392,7 +1390,7 @@ export default function App() {
                     </div>
 
                     <div className="flex items-start gap-2 md:gap-4">
-                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">10:15 AM</span>
+                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">10:30 AM</span>
                       <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
                         <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />
                       </div>

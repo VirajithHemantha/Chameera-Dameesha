@@ -237,7 +237,7 @@ export default function StoryApp() {
                     </div>
                     <p className="serif text-[5.5rem] sm:text-[7rem] font-medium text-[#2C2C2C] leading-none px-1">15</p>
                     <div className="flex-1 text-left border-y border-[#2C2C2C]/30 py-2">
-                      <p className="text-[14px] sm:text-[16px] uppercase tracking-widest text-[#2C2C2C] font-bold">AT 10:00 AM</p>
+                      <p className="text-[14px] sm:text-[16px] uppercase tracking-widest text-[#2C2C2C] font-bold">10:00 AM ONWARDS</p>
                     </div>
                   </div>
                   <p className="text-[18px] sm:text-[22px] uppercase tracking-widest text-[#2C2C2C] font-bold mt-2">2027</p>
@@ -254,7 +254,6 @@ export default function StoryApp() {
                     HOTEL GRAND GUARDIAN
                   </p>
                   <p className="text-[14px] sm:text-[16px] uppercase tracking-[0.15em] font-medium">RATNAPURA</p>
-                  <p className="text-[12px] sm:text-[14px] uppercase tracking-[0.15em] font-medium px-4">HOTEL GRAND GUARDIAN, RATNAPURA</p>
                 </a>
 
                 <div className="mt-8 sm:mt-10">
@@ -396,9 +395,9 @@ export default function StoryApp() {
 
                   {([
                     { time: "10:00 AM", title: "GUEST ARRIVAL" },
-                    { time: "10:45 AM", title: "PORUWA CEREMONY" },
-                    { time: "1:30 PM", title: "LUNCH BUFFET & RECEPTION" },
-                    { time: "5:00 PM", title: "GOING AWAY" },
+                    { time: "10:30 AM", title: "PORUWA CEREMONY" },
+                    { time: "12:30 PM", title: "LUNCH BUFFET & RECEPTION" },
+                    { time: "4:00 PM", title: "GOING AWAY" },
                   ] as { time: string; title: string; sub?: string }[]).map((item, idx) => (
                     <div key={idx} className="relative z-10 bg-white/70 backdrop-blur-sm p-4 rounded-xl border border-white shadow-sm w-[85%] mx-auto">
                       <p className="text-[13px] font-bold text-[#a855f7] mb-1">{item.time}</p>
@@ -428,7 +427,7 @@ export default function StoryApp() {
                   <h2 className="serif text-4xl tracking-[0.2em] text-[#7e22ce] font-medium uppercase mb-6">Details</h2>
 
                   <div className="w-full h-32 rounded-xl overflow-hidden mb-4 relative">
-                    <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=900&auto=format&fit=crop" className="w-full h-full object-cover" alt="Venue" />
+                    <img src="/Screenshot 2026-10-07 211416.png" className="w-full h-full object-cover" alt="Venue" />
                   </div>
 
                   <div className="bg-[#e9d5ff] py-2 rounded-t-xl mb-1">
@@ -436,8 +435,7 @@ export default function StoryApp() {
                   </div>
                   <div className="bg-white py-4 rounded-b-xl shadow-sm border border-white mb-4 flex flex-col items-center">
                     <p className="text-[12px] uppercase font-bold text-[#7e22ce]">Hotel Grand Guardian</p>
-                    <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">Ratnapura</p>
-                    <p className="text-[10px] uppercase tracking-widest text-zinc-500 mb-3 px-2 text-center">Hotel Grand Guardian, Ratnapura</p>
+                    <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1 mb-3">Ratnapura</p>
                     <a
                       href="https://maps.app.goo.gl/7DviUe59QdJK488MA"
                       target="_blank"

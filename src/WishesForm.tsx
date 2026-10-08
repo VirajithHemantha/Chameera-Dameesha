@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 export default function WishesForm() {
-  const endpoint = "https://script.google.com/macros/s/AKfycbx7KfLqJ0YcdqvFD-igqNJc4f-NfWI-tdqb5acO1dt-fDDsdWb3rOYoxCNgWkKguz5mqw/exec";
+  const endpoint = "https://script.google.com/macros/s/AKfycbysY94L_O9wEXg6GQOumqJz0kukeEmUFGL8TgE0LkbRSORiuHPmQoonfyTPhy_1wKxU3Q/exec";
 
   const [name, setName] = useState<string>("");
   const [message, setMessage] = useState<string>("");
