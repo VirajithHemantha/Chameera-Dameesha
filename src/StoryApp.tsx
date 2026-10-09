@@ -427,7 +427,7 @@ export default function StoryApp() {
                   <h2 className="serif text-4xl tracking-[0.2em] text-[#7e22ce] font-medium uppercase mb-6">Details</h2>
 
                   <div className="w-full h-32 rounded-xl overflow-hidden mb-4 relative">
-                    <img src="/Screenshot 2026-10-07 211416.png" className="w-full h-full object-cover" alt="Venue" />
+                    <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=900&auto=format&fit=crop" className="w-full h-full object-cover" alt="Venue" />
                   </div>
 
                   <div className="bg-[#e9d5ff] py-2 rounded-t-xl mb-1">
@@ -464,13 +464,13 @@ export default function StoryApp() {
                 transition={{ duration: 1 }}
                 className="bg-white p-6 md:p-10 rounded-[2.5rem] border border-[#e9d5ff] w-full max-w-sm min-h-[80vh] h-auto flex flex-col justify-center items-center shadow-xl"
               >
-                <div className="flex items-center justify-center gap-3 w-[60%] mx-auto mb-10 mt-4 md:mt-0">
+                <div className="flex items-center justify-center gap-3 w-[60%] mx-auto mb-6 mt-4 md:mt-0">
                   <div className="h-px bg-zinc-300 flex-1"></div>
                   <p className="serif text-[13px] uppercase tracking-[0.2em] font-medium text-[#2C2C2C]">PLEASE</p>
                   <div className="h-px bg-zinc-300 flex-1"></div>
                 </div>
 
-                <div className="relative mb-12 w-[85%] max-w-[260px]">
+                <div className="relative mb-6 w-[70%] max-w-[200px]">
                   <img src="/floral_rsvp.png" alt="RSVP" className="w-full h-auto object-contain mix-blend-multiply" />
                 </div>
 

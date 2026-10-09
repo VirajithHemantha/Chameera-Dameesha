@@ -100,7 +100,7 @@ export default function RSVPForm() {
           {submitting ? "Submitting..." : "Submit RSVP"}
         </button>
 
-        <div className="mt-6 text-center space-y-2 border-t border-[#a855f7]/20 pt-4">
+        <div className="mt-4 text-center space-y-2 border-t border-[#a855f7]/20 pt-4">
           <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#7e22ce] font-bold">
             Kindly Confirm Your Presence By 5th January 2027
           </p>

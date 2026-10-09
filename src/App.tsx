@@ -421,7 +421,7 @@ function RSVPForm() {
           </p>
         )}
 
-        <div className="mt-6 text-center space-y-2 border-t border-sage/20 pt-4">
+        <div className="mt-4 text-center space-y-2 border-t border-sage/20 pt-4">
           <p className="text-[12px] md:text-sm uppercase tracking-widest text-zinc-600 font-bold">
             Kindly Confirm Your Presence By 5th January 2027
           </p>
@@ -1198,7 +1198,7 @@ export default function App() {
             className="w-full h-full col-span-2 lg:col-span-2"
           >
             <FlipCard
-              containerClassName="w-full h-[380px] md:h-[350px] lg:h-[350px]"
+              containerClassName="w-full h-[460px] md:h-[420px] lg:h-[420px]"
               front={
                 <div className="w-full h-full bg-[#faf5ff] p-6 flex flex-col justify-center items-center text-center relative group overflow-hidden">
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-sage/10 rounded-full blur-3xl pointer-events-none" />
@@ -1277,7 +1277,7 @@ export default function App() {
               front={
                 <div className="w-full h-full relative group">
                   <img
-                    src="/Screenshot 2026-10-07 211416.png"
+                    src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=900&auto=format&fit=crop"
                     alt="Hotel Grand Guardian Ratnapura"
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     referrerPolicy="no-referrer"
